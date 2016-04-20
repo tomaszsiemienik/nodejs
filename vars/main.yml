@@ -1,0 +1,3 @@
+# file: roles/tomaszsiemienik.nginx/vars/main.yml
+---
+welcomeMsg: 'Nginx works!'
