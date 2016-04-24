@@ -58,3 +58,8 @@
     mode=0644
   tags: git
 
+- name: Install language pack
+  apt: pkg=language-pack-en state=installed
+
+- name: Install mocha js tests
+  npm: name=mocha global=yes
